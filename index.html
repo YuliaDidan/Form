@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+    	<form class="form" action="" method="post">
+    		<label class="name" for="name">Name</label>
+    		<input class="inputname" type="text" id="name" name="name" value="Full name">
+    		<label class="email" name="email" for="email">Email</label>
+    		<input class="inputemail" type="email" id="email" name="email" value="Email adress" placeholder="Email address">
+    		<label class="number" for="number">Number of Passes</label>
+    		<select class="selectnumber" name="number">
+			     <option value="1">1</option>
+			     <option value="2">2</option>
+			     <option value="3">3</option>
+    		</select>
+			<label class="comments" for="comments">Comments</label>
+        	<textarea class="textarea" id="comments" name="comments" rows="5"></textarea>
+        	<div class="button">
+                    <input class="inputbutton" type="submit" value="PURCHASE">
+                </div>
+	    </form>
+    </body>
+</html>
